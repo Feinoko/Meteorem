@@ -233,3 +233,31 @@ footer .full-style {
 /*===== 
 Media queries 
 =======*/
+
+@media screen and (max-width: 1190px) {
+  
+  h1.header-main {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-col {
+    width: 100%;
+    /* border: red 1px solid; */
+  }
+
+  label, .form-input {
+    text-align: center;
+  }
+
+  .form-input {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+}
