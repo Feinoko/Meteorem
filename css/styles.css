@@ -242,22 +242,15 @@ Media queries
   }
 }
 
-/* @media screen and (max-width: 870px) {
-  .form-row {
-    display: block;
-  }
-
-  .form-col {
-    width: 100%;
-  }
+@media screen and (max-width: 870px) {
 
   label, .form-input {
+    display: block;
+    margin: 0 auto;
     text-align: center;
+    position: static;
+    margin-bottom: 15px;
+    max-width: 100%;
   }
-
-  .form-input {
-    text-align: center;
-    margin: 10px auto;
-  } */
 
 }
