@@ -63,7 +63,6 @@ header {
 
 .to-landing img:hover {
   filter: brightness(.7);
-
 }
 
 .flex-header {
@@ -85,7 +84,6 @@ img {
   width: 350px;
   /* border: 1px black solid; */
 }
-
 
 ul {
   list-style: none;
@@ -145,18 +143,8 @@ label, .form-input, .login {
 
 label {
   font-weight: 400;
-
 }
 
-/* .form-row {
-  display: flex;
-  
-} */
-
-.form-col {
-  width: 50%;
-  /* border: red 1px solid; */
-}
 
 form {
   /* border: yellow solid 1px; */
@@ -256,7 +244,6 @@ Media queries
     margin-bottom: 15px;
     max-width: 100%;
   }
-
 }
 
 @media screen and (max-width: 750px) {
@@ -294,7 +281,6 @@ Media queries
 
   .to-landing {
     display: block;
-    
   }
 
   img {
@@ -316,7 +302,7 @@ Media queries
   .login-mob {
     display: block;
     padding: .75rem 1rem;
-    margin: 3rem auto 0 auto;
+    margin: 1.5rem auto 0 auto;
     display: block;
     width: 90%;
     background-color: #1D3744;
@@ -331,6 +317,10 @@ Media queries
   footer {
     text-align: center;
     margin: 0 1rem;
+  }
+
+  .br {
+    display: none;
   }
 
 }
