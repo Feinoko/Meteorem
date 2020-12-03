@@ -56,6 +56,16 @@ header {
   background-color: #243c47;
 }
 
+.to-landing img {
+  filter: brightness(1.0);
+  transition: all ease .4s;
+}
+
+.to-landing img:hover {
+  filter: brightness(.7);
+
+}
+
 .flex-header {
   display: flex;
   justify-content: space-between;
@@ -112,7 +122,7 @@ ul li {
   padding: 65px 15px;
   margin: 50px auto 0 auto;
   width: 80%;
-  max-width: 600px;
+  max-width: 500px;
   position: relative;
 }
 
@@ -204,6 +214,7 @@ footer {
   position: absolute;
   bottom: 5px;
   font-size: 16px;
+  margin-left: 7.5%;
 }
 
 footer .foot-brand-name {
