@@ -211,6 +211,10 @@ label, .form-input {
   background-color:  #1b323d;
 }
 
+.login-mob {
+  display: none; /* media query */
+}
+
 footer {
   position: absolute;
   bottom: 5px;
@@ -251,6 +255,82 @@ Media queries
     position: static;
     margin-bottom: 15px;
     max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  .flex-header {
+    display: block;
+  }
+
+  ul {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  ul li {
+    margin-left: 15px;
+  }
+
+  .elem-img {
+    width: 30px;
+  }
+
+  h1.header-main {
+    margin-top: 2rem;
+    font-size: 30px; 
+    margin-bottom: 2rem;
+  }
+
+  .text-main {
+    font-size: 16px;
+  }
+
+  .image {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .to-landing {
+    display: block;
+    
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 1rem;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .login-mob {
+    display: block;
+    padding: .75rem 1rem;
+    margin: 3rem auto 0 auto;
+    display: block;
+    width: 90%;
+    background-color: #1D3744;
+    border: 2px solid #229de2;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    margin: 0 1rem;
   }
 
 }
