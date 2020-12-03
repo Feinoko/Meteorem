@@ -257,7 +257,7 @@ Media queries
   }
 
   ul li {
-    margin-left: 15px;
+    margin-left: 0px;
   }
 
   .elem-img {
@@ -321,6 +321,17 @@ Media queries
 
   .br {
     display: none;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  footer {
+    position: static;
+    margin-top: 15px;
+  }
+
+  body {
+    height: 800px;
   }
 
 }
