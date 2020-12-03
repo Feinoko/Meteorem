@@ -148,10 +148,10 @@ label {
 
 }
 
-.form-row {
+/* .form-row {
   display: flex;
   
-}
+} */
 
 .form-col {
   width: 50%;
@@ -160,13 +160,11 @@ label {
 
 form {
   /* border: yellow solid 1px; */
+  position: relative;
 }
 
 label, .form-input {
-  display: block;
-  margin-bottom: 9px;
-  text-align: right;
-  margin-right: 15px;
+  margin-left: 7.5%;
 }
 
 .form-input {
@@ -179,6 +177,9 @@ label, .form-input {
   letter-spacing: 3px;
   font-size: 15px;
   font-family: 'raleway';
+  position: absolute;
+  right: 0px;
+  margin-right: 7.5%;
 }
 
 .form-input:hover {
