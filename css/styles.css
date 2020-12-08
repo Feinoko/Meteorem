@@ -21,7 +21,12 @@ body {
   background-position: 15% 15%;
   /* border: 2px red solid; */
   height: 100vh;
-  
+  transition: 1s ease all;
+  opacity: 0%;
+}
+
+.fadeIn {
+  opacity: 100%;
 }
 
 .container {
